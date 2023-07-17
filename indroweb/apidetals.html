@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title>API Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-dart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-flutter.min.js"></script>
+    <script>
+        Prism.highlightAll();
+
+      
+
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var newContent = "https://popularshamefullevels--geyot99902.repl.co"; // Set the new content here
+            var paragraphs = document.querySelectorAll('a#targetParagraph');
+
+            if (paragraphs.length > 0) {
+                paragraphs.forEach(function (paragraph) {
+                    paragraph.innerHTML = newContent;
+                });
+            } else {
+                alert("Paragraphs not found");
+            }
+        });
+
+
+        
+    </script>
+    <style>
+        body {
+            background: #0F2436;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: system-ui;
+        }
+
+        h3 {
+            color: white;
+            margin-left: 14px;
+            font-size: 22px;
+            font-family: sans-serif;
+        }
+
+        a {
+            color: white;
+        }
+
+        pre {
+            background-color: #1B3041;
+            padding: 16px;
+            font-size: 17px;
+            color: white;
+            margin-top: 25px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .copy-btn {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .requst {
+            color: white;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 18px;
+            border-radius: 6px;
+        }
+
+        .get-requst {
+            background: green;
+
+        }
+
+        .post-requst {
+            background: #1b8cba;
+
+        }
+
+        .deleate-requst {
+            background: red;
+
+        }
+
+        .files-requst {
+            background: violet;
+
+        }
+
+        .ram-requst {
+            background: #F39C12;
+
+        }
+
+        .cpu-requst {
+            background: #7F8C8D;
+
+        }
+
+        .os-requst {
+            background: #2C3E50;
+
+        }
+
+        .code-container {
+            /* max-width: 800px; */
+            margin: 0 auto;
+            background-color: #1B3041;
+            color: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .language-dart {
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: none;
+
+        }
+
+        .codecontain {
+            border-radius: 20px;
+            background: black;
+
+        }
+    </style>
+    <script>
+        function copyToClipboard(text) {
+            const input = document.createElement('input');
+            input.style.position = 'fixed';
+            input.style.opacity = '0';
+            input.value = text;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            alert('API endpoint copied to clipboard!');
+        }
+    </script>
+</head>
+
+<body>
+    <h1>API Documentation Chat Backend 🔥 🖥 </h1>
+
+    <h3>Upload Files ⬆️</h3>
+    <pre><span class="post-requst requst">POST</span> <a href="https://priceyeachnasm--geyot99902.repl.co/upload"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/upload</a> [passing = uploadfiles:FileName] </pre>
+
+    <!-- <button class="copy-btn" onclick="copyToClipboard('GET /files')">Copy</button> -->
+
+    <h3>Get Hosted Files 📁</h3>
+    <pre><span class="get-requst requst">GET</span> <a href=" https://priceyeachnasm--geyot99902.repl.co/fileslist "><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/fileslist</a> </pre>
+    <h3> Delete File 🗑</h3>
+    <pre><span class="deleate-requst requst">DELETE</span> <a href="https://priceyeachnasm--geyot99902.repl.co/files/uploadfiles_1684418944631.gif"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/files/uploadfiles_1684418944631.gif</a> </pre>
+    <h3>Get Delete All Files 📁</h3>
+    <pre><span class="get-requst requst">GET</span> <a href="https://priceyeachnasm--geyot99902.repl.co/files"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/files</a></pre>
+    <h3>Get Storage Info 💾</h3>
+    <pre><span class="get-requst requst">GET</span> <a href="https://priceyeachnasm--geyot99902.repl.co/storageInfo"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/storageInfo</a> </pre>
+
+    <h3>Get OS Info 🖥</h3>
+    <pre><span class="get-requst requst">GET</span> <a href="https://priceyeachnasm--geyot99902.repl.co/os-info"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/os-info</a> </pre>
+    <h3>Get CPU Info 💻</h3>
+    <pre><span class="get-requst requst">GET</span> <a href="https://priceyeachnasm--geyot99902.repl.co/cpu-usage"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/cpu-usage</a> </pre>
+    <h3>Get RAM Usage 💾</h3>
+    <pre><span class="get-requst requst">GET</span> <a href="https://priceyeachnasm--geyot99902.repl.co/ram-usage"><a id="targetParagraph">https://priceyeachnasm--geyot99902.repl.co</a>/ram-usage</a> </pre>
+
+    <br>
+
+    <h3>Flutter Import</h3>
+    <div class="code-container">
+        <pre class="codecontain"><code  class="language-dart">
+import 'dart:io';
+import 'package:bouncing_button/bouncing_button.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:dio/dio.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:upload_files/theme/colors.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:percent_indicator/percent_indicator.dart';
+        </code></pre>
+    </div>
+
+    <h3>Flutter Upload Files ⬆️</h3>
+    <div class="code-container">
+        <pre class="codecontain"><code style="text-shadow: none; color: white;"  class="language-dart">
+ BouncingButton(
+     scaleFactor: .1,
+     onPressed: () async {
+       FilePickerResult? result =
+await FilePicker.platform.pickFiles();
+
+       if (result != null) {
+         print(result.files.single.path.toString());
+         File file = File(result.files.single.path.toString());
+
+         final dio = Dio();
+         var naem = 'uploadImage.png';
+
+         FormData formData = FormData.fromMap({
+'uploadfiles': await MultipartFile.fromFile(
+  file.path,
+),
+         });
+
+         try {
+final response = await dio.post(
+  "https://priceyeachnasm--geyot99902.repl.co/upload",
+  data: await formData,
+  onSendProgress: (count, total) {
+    bytesSent = count;
+    double elapsedTimeInSeconds = DateTime.now()
+        .difference(startTime)
+        .inSeconds
+        .toDouble();
+    uploadSpeed = count / elapsedTimeInSeconds;
+    percentage =
+        ((count / total) * 100).toStringAsFixed(0) + "%";
+    progressCount = count / total;
+    double progress = count / total * 100;
+    int remainingBytes = total - count;
+    double remainingTimeInSeconds =
+        remainingBytes / uploadSpeed;
+
+    uploadSpeedString = formatUploadSpeed(uploadSpeed);
+    print('Upload speed: $uploadSpeedString');
+
+    Duration remainingDuration =
+        Duration(seconds: remainingTimeInSeconds.toInt());
+    remainingTimeString =
+        formatDuration(remainingDuration);
+
+    setState(() {});
+  },
+);
+
+print(response.data['uploadfiles_url']);
+if (response.data['uploadfiles_url'] != null) {
+  setState(() {
+    progressCount = 0.0;
+    percentage = '0%';
+    remainingTimeString = '0';
+    uploadSpeedString = "0 B/s";
+  });
+} else {
+  setState(() {
+    progressCount = 0.0;
+    percentage = '0%';
+    remainingTimeString = '0';
+    uploadSpeedString = "0 B/s";
+  });
+}
+
+return response.data['uploadfiles_url'];
+         } catch (e) {
+print(e);
+         }
+       } else {
+         // User canceled the picker
+       }
+     },
+     child: Container(
+       decoration: BoxDecoration(
+borderRadius: BorderRadius.circular(50),
+color: Colors.blue),
+       height: 50,
+       width: 120,
+       child: Center(
+         child: Text(
+'Upload',
+style: GoogleFonts.getFont('Lato',
+    color: Colors.white,
+    fontWeight: FontWeight.bold,
+    fontSize: 18),
+         ),
+       ),
+     ),
+   ),
+        </code></pre>
+    </div>
+
+
+
+
+
+    
+</body>
+
+</html>
